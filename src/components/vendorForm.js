@@ -1,18 +1,17 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import Payment from './payment';
 import 'bootstrap/dist/css/bootstrap.css';
 
-let VendorForm = () => (
+let VendorForm = ({ handleVendorPropertyChange }) => (
   <div className="container bg-success">
   <form>
-    <div class="form-group">
+    <div className="form-group">
     <label>Vendor type:</label>
-    <select class="form-control" id="businessType">
-      <option>Exhibitor / Restaurant</option>
+    <select className="form-control" id="businessType">
+      <option>Exhibitor/Restaurant</option>
       <option>Non-Profit</option>
     </select>
-    <small className="form-text">Early registration by 3/15/19</small>
+    <small className="form-text">Prices reflect early registration by 3/15/19</small>
     <small className="form-text">Additional $15 for
 temporary food permit (separate check required and made out to the city of Manchester) for exhibitor/restaurant.</small>
   </div>
@@ -53,9 +52,9 @@ temporary food permit (separate check required and made out to the city of Manch
     <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
     <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
   </div>
-  <div class="form-group">
+  <div className="form-group">
     <label>Business type:</label>
-    <select class="form-control" id="businessType">
+    <select className="form-control" id="businessType">
       <option>Food</option>
       <option>Service (yoga, Pilates, meditation, massage, etc.)</option>
       <option>Social awareness group</option>
@@ -64,9 +63,9 @@ temporary food permit (separate check required and made out to the city of Manch
       <option>Other</option>
     </select>
   </div>
-  <div class="form-group">
+  <div className="form-group">
     <label>Product Description:</label>
-    <textarea class="form-control" id="productDescription" rows="5"></textarea>
+    <textarea className="form-control" id="productDescription" rows="5"></textarea>
     <small id="foodProductHelp" className="form-text text-muted">Describe all food items to be sold or sampled (City of Manchester Temp. Food Permit required). Describe non-food products or services to be promoted.</small>
   </div>
   <Link to="/payment" className="btn btn-primary" role="button">Submit and Pay</Link>

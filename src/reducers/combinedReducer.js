@@ -1,8 +1,8 @@
 import { combineReducers } from 'redux'
-import { theState } from './theReducer.js';
+import { vendor } from './vendorReducer.js';
 
 const combinedReducer = combineReducers({
-    theState
+    vendor
 })
 
 export default combinedReducer;

@@ -1,11 +1,11 @@
 import React from 'react';
 import Header from './header';
-import VendorForm from './vendorForm';
+import VendorFormContainer from '../containers/vendorFormContainer';
 
 let VendorRoot = () => (
     <div className="container">
       <Header />
-      <VendorForm />
+      <VendorFormContainer />
     </div>
 )
 
