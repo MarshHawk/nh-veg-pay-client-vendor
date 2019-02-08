@@ -4,7 +4,7 @@ export default {
 	"businessType": "Food",
 	"businessName": "",
 	"contactPerson": "",
-	"streretAddress": "",
+	"streetAddress": "",
 	"City": "",
 	"State": "",
 	"Zipcode": "",

@@ -1,6 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## TODO:
+-- Build email
+-- Fix pricing bug
+-- lambda
+-- deploy?
 
 In the project directory, you can run:
 
